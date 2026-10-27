@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <metharset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak & Pemesanan - Poliban Digicraft Studio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header & Navigasi Utama Website -->
     <header>
-        <h1>Poliban Digicraft Studio</h1>
-        <p><em>Solusi Kreatif & Tranformasi Digital Terpercaya</em></p>
-        <hr>
-        <nav>
-            <a href="cvhaikal.html">Tentang Kami</a> |
-            <a href="produk.html">Katalog Jasa</a> |
-            <a href="kontak.html">Kontak & Pemesanan</a>
-        </nav>
-        <hr>
+        <div class="container">
+            <h1>Poliban Digicraft Studio</h1>
+            <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
+            <nav>
+                <a href="cvhaikal.html">Tentang Founder</a> |
+                <a href="produk.html">Katalog Jasa & Paket harga</a> |
+                <a href="kontak.html" class="active">Kontak & Pemesanan</a>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -26,7 +27,8 @@
         <form action="#" method="POST">
             <!-- Grup 1: Data Diri Pelanggan -->
             <fieldset>
-                <legend><b>1. Informasi Identitas Pemesan</b></legend>
+                <legend></legend>
+                <b>1. Informasi Identitas Pemesan</b>
                 <br>
                 <label for="nama_lengkap">Nama Lengkap / Instansi:</label><br>
                 <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="Contoh: Ilham Kurniawan" size="40" required>
@@ -60,7 +62,8 @@
 
             <!-- Grup 2: Detail Pemesanan Layanan -->
             <fieldset>
-                <legend><b>2. Rincian Pemesanan Jasa Digital</b></legend>
+                <legend></legend>
+                <b>2. Rincian Pemesanan Jasa Digital</b>
                 <br>
                 <label for="pilih_paket">Pilih Paket Layanan (Lihat katalog di halaman Produk):</label><br>
                 <select id="pilih_paket" name="pilih_paket" required>

@@ -25,6 +25,7 @@ color: white;
 padding: 25px 0;
 text-align: center;
 box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+margin-bottom: 7px;
 }
 
 header h1 {
@@ -53,7 +54,7 @@ nav a {
     transition: all 0.3 ease;
 }
 
-nav a:hover, nav a active {
+nav a:hover, nav a.active {
     background-color: rgba(255, 255, 2555, 0.25);
     font-weight: bold;
 }
